@@ -1,0 +1,220 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+header{
+    background-color: white;
+}
+
+.header-container{
+    width: 80%;
+    margin: 0px auto;
+   
+}
+.header-content{
+    display: flex;
+    min-width: 200px;
+    flex-wrap: wrap;
+    
+}
+.logo{
+    color: rgb(38, 38, 235);
+    display: inline;
+    flex-grow: 1;
+    
+}
+.logo h4{
+   margin-top: 30px;
+}
+.nav ul{
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 10px;
+    
+    
+    
+}
+.nav li{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+}
+.nav select{
+    padding: 10px 5px;
+    border: none;
+    font-size: 20px;
+}
+.nav li a{
+    text-decoration: none;
+}
+.header-button{
+    margin: 20px;
+    margin-top: 30px;
+    
+   
+}
+.header-button button{
+    padding:10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.intro-container{
+   
+   
+    background-color: #e5e7eb;
+    
+}
+.btns{
+    min-width:200px;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.content-container{
+    padding:30px 0px ;
+    width: 80%;
+    margin:0px auto ;
+    display: flex;
+    min-width: 200px;
+    flex-wrap: wrap;
+}
+
+.heading{
+    flex-grow: 2;
+}
+.heading h1{
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+.heading h3{
+    margin-top: 0px;
+    padding: 10px;
+}
+.heading p{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.btn1{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(51, 51, 226);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn2{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(51, 51, 226) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading button{
+    margin: 15px;
+}
+.marque{
+    background-color: white;
+}
+.marque-content-container{
+    display: flex;
+    
+}
+.marque-content-container div{
+    padding: 5px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.marque-content-container span{
+    font-weight: bold;
+}
+.table-container{
+    background-color: white;
+}
+.table-header{
+    width: 80%;
+    margin: 0px auto;
+}
+.table-header h1{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.table-header input{
+    width: 100%;
+    height:60px ;
+    text-indent: 30px;
+    background-color: #f4f4f4;
+    border: none;
+
+}
+.table-header table{
+    width: 100%;
+    text-align: center;
+}
+table img{
+    width: 70px;
+}
+.upcoming-listing-container{
+    background-color: white;
+}
+.listing-content{
+    width: 80%;
+    margin: 0px auto;
+}
+.listing-content h1{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.box-container{
+    width: 100%;
+    display: flex;
+    flex-grow: 0;
+    min-width: 200px;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 20px;
+    margin-top: 0px; 
+    
+    
+   
+}
+.box img{
+    width: 400px;
+}
+.box-text-container{
+    display: flex;
+    padding: 20px;
+}
+.recent-content{
+    width: 80%;
+    margin: 0px auto;
+}
+.recent-content h1{
+    font-size: 30px;
+}
+.recent-container{
+    
+    
+    flex-grow: 0;
+    min-width: 200px;
+    flex-wrap: wrap;
+}
+.box1{
+    margin: 20px;
+    margin-top: 0px; 
+    
+    
+   
+}
+.box1 img{
+    width: 400px;
+    border: 2px solid;
+}
+
+
